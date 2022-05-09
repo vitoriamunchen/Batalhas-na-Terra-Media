@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@100&family=Oswald:wght@400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.cabecalho{
+    padding: 20px;
+    background-color: darkred
+}
+
+li{
+    list-style-type: none;
+}
+section{
+    max-width: 100%;
+    height: 100vh;
+}
+
+ header{
+     display: block;
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 10;   
+     text-align: center;
+ }
+
+
+.menu-princiapal1{
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+   
+}
+ #lista-header{
+     display: flex;
+ }
+
+ .menus{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+p{
+    padding-bottom: 50px;
+}
+
+
+.paragrafo-inicial{
+    width: 40%;
+    height: 40%;
+    border-width: medium;
+    padding: 20px;
+    font-weight: 100%;
+    right: 65%;
+    width: 85%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.corpo-inicial{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 85px;
+    flex-direction: row;
+}
+
+
+.conteudo-principal-video{
+    position: absolute;
+    width: 40%;
+    right: 10%;
+    top: 20%;
+
+}
+
+#titulo-principal{
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 200%;
+    font-size: 25px;
+    color: white;
+
+}
+
+.paragrafo-inferior{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#titulo-secundario{
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 200%;
+    font-size: 25px;
+
+}
+
+.paragrafo-principal{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100%;
+
+}
+
+#titulo-terciario{
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 200%;
+    font-size: 25px;
+}
+
+.paragrafo-nacoes{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100%;
+}
+
+
+
+
+#criarpersonagem4{
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 90%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.box{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+padding: 9px;
+border-radius: 15px;
+width: 14%;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+
+fieldset{
+    border: 3px darkred solid;
+}
+legend{
+    border: 3px solid darkred;
+    padding: 10px;
+     text-align: center;
+     border-radius:  6px;
+     
+}
+
+.input-box{
+    border: solid darkred 2px;
+}
+
+.inputbox-nome{
+    position: -ms-page;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput{
+    position: -ms-page;
+    top: 2%;
+    left: 0px;
+    right: 5px;
+}
+#habilidades-1{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+#field1 {
+    position: relative;
+    left: 0%;
+}
+
+
+#box-personagem-2{
+    position: absolute;
+    border: solid black 1px;
+    top: 10%;
+    left: 45%;
+padding: 15px;
+border-radius: 15px;
+width: 10%;
+}
+
+#habilidades-2{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#field2 {
+    position: absolute;
+    /* left: 10%; */
+    width: 13%;
+    top: 11%;
+    left: 22%;
+}
+
+#box-personagem-3 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+}
+
+#habilidades-3 {
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#field3 {
+    position: absolute;
+    left: 30%;
+    width: 13%;
+    top: 11%;
+    left: 40%;
+}
+
+#box-personagem-4{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+padding: 15px;
+border-radius: 15px;
+width: 13%;
+}
+
+#habilidades-4{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#field4 {
+    position: absolute;
+    width: 13%;
+    left: 57%;
+    top: 11%;
+}
+
+#box-personagem-5{
+    position: absolute;
+    top: 10%;
+    left: 74%;
+padding: 15px;
+border-radius: 15px;
+width: 13%;
+}
+
+#habilidades-5{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#field5{
+    position: absolute;
+    width: 13%;
+    left: 74%;
+    top: 11%;
+}
+
+#box-personagem-6{
+    position: absolute;
+    top: 10%;
+    left: 74%;
+padding: 15px;
+border-radius: 15px;
+width: 13%;
+}
+
+#habilidades-6{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#field6{
+    position: absolute;
+    width: 13%;
+    left: 5%;
+    top: 170%;
+}
+
+#box-personagem-7{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+padding: 15px;
+border-radius: 15px;
+width: 13%;
+}
+
+#habilidades-7{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#field7{
+    position: absolute;
+    width: 13%;
+    left: 28%;
+    top: 170%;
+}
+
+#box-personagem-8{
+    position: absolute;
+    top: 10%;
+    left: 48%;
+padding: 15px;
+border-radius: 15px;
+width: 13%;
+}
+
+#habilidades-8{
+    border: solid darkred 2px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#field8{
+    position: absolute;
+    width: 13%;
+    left: 48%;
+    top: 170%;
+}
+
+
+
+#titulo-autora{
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 90%;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    top: 230%;
+    left: 34%;
+   
+}
+
+
+.Informacoes-autora{
+    text-align: justify;
+    text-indent: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: absolute;
+    top: 230%;
+
+}
+
+.foto{
+    width: 180px;
+    border-radius: 10%;
+}
+
+.paragrafo-sobre-mim{
+    margin-bottom: 40px;
+    border-top: 0.2px solid black; 
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.paragrafo-sobre-mim{
+    margin-bottom: 40px;
+    border-top: 0.2px solid black; 
+    text-align: justify;
+    text-indent: 20px;
+    position: absolute;
+    top: 175%
+}
+
+.paragrafo-sobre-curso{
+    text-indent: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: absolute;
+    top: 107%;
+    left: 15%;
+
+}
+
+
+
+.rodape-principal-titulo{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 100%;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left: 10%;
+    top: 100%;
+}
+
+
+.rodape-principal-escrito{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 100%;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left: 25%;
+    top: 130%;
+}
+
+.rodape-principal-escrito-subtitulo{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 100%;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left: 18%;
+    top: 150%;
+}
